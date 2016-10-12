@@ -46,8 +46,18 @@ public class HoroscopeDetailFragment extends Fragment {
             TextView title = (TextView) view.findViewById(R.id.textTitle);
             Horoscope horoscope = Horoscope.horoscopes[(int) horoscopeId];
             title.setText(horoscope.getName());
+
             TextView description = (TextView) view.findViewById(R.id.textDescription);
             description.setText(horoscope.getDescription());
+
+            TextView symbol = (TextView) view.findViewById(R.id.textSymbol);
+            symbol.setText(horoscope.getSymbol());
+
+            TextView month = (TextView) view.findViewById(R.id.textMonth);
+            month.setText(horoscope.getMonth());
+
+            TextView horo = (TextView) view.findViewById(R.id.textHoroscope);
+            horo.setText(horoscope.getHoroscope());
         }
     }
 

@@ -13,10 +13,26 @@ android:orientation = "vertical">
     android:id="@+id/textTitle" />
 
 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textDescription" />
+<TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text=""
-    android:id="@+id/textDescription"
-    />
+    android:id="@+id/textSymbol"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/textMonth"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/textHoroscope"/>
 
 </LinearLayout>
